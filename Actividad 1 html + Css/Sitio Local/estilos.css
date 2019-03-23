@@ -1,0 +1,26 @@
+body{
+	background-color: darkgreen;
+}
+*{
+	box-sizing: border-box;
+}
+
+#contenedor{
+	width: 80%;
+	height: 200px;
+	background-color: blue;	
+	border: 5px solid red;
+	margin: auto; /*centrar un div*/
+}
+#panelIzquierdo{
+	width: 30%;/*valor relativo*/
+	height: 100%;/*valor relativo*/
+	border: 5% solid black;
+	float: left;/* flotante*/
+}
+#panelDerecho{
+	width: 70%;/*valor relativo*/
+	height: 100%;/*valor relativo*/
+	border: 5% solid black;
+	float: left;/* flotante*/
+}
